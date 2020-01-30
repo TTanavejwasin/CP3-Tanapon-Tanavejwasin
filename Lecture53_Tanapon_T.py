@@ -1,4 +1,5 @@
 Number = int(input("Number : "))
 def vatCalculate(totalprice):
-    return result = totalprice+(totalprice*7/100)
+    result = totalprice+(totalprice*7/100)
+    return result
 print(vatCalculate(Number))
